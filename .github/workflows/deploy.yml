@@ -18,15 +18,15 @@ jobs:
       - name: Build secure/config.php from secrets
         run: |
           mkdir -p secure
-          cat > secure/config.php <<PHP
+          cat > secure/config.php <<EOF
           <?php
           return [
-            'DB_HOST' => '${DB_HOST}',
-            'DB_USER' => '${DB_USER}',
-            'DB_PASS' => '${DB_PASS}',
-            'DB_NAME' => '${DB_NAME}',
+            'DB_HOST' => '$DB_HOST',
+            'DB_USER' => '$DB_USER',
+            'DB_PASS' => '$DB_PASS',
+            'DB_NAME' => '$DB_NAME',
           ];
-          PHP
+          EOF
         env:
           DB_HOST: ${{ secrets.DB_HOST }}
           DB_USER: ${{ secrets.DB_USER }}
