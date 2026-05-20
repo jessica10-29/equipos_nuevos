@@ -1,8 +1,8 @@
 <?php
 
 return array(
-    'DB_HOST' => 'localhost',
-    'DB_USER' => 'usuario_seguro',
-    'DB_PASS' => 'cambia-esta-clave',
-    'DB_NAME' => 'inventario_equipos',
+    'DB_HOST' => 'sql306.infinityfree.com',
+    'DB_USER' => 'if0_41969676',
+    'DB_PASS' => 'Jjshjjpos',
+    'DB_NAME' => 'if0_41969676_inventario',
 );
