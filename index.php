@@ -58,7 +58,7 @@ $asignados = count(array_filter($equipos, function ($equipo) {
             <article class="stat-card stat-card-available">
                 <span class="stat-label">Disponibles</span>
                 <strong class="stat-value"><?php echo $disponibles; ?></strong>
-                <p>Listos para asignacion inmediata.</p>
+                <p>Listos para asignacion.</p>
             </article>
 
             <article class="stat-card stat-card-assigned">
@@ -79,7 +79,7 @@ $asignados = count(array_filter($equipos, function ($equipo) {
                 <div class="section-heading">
                     <div>
                         <span class="section-tag">Registro</span>
-                        <h2>Agregar nuevo equipo</h2>
+                        <h2>Agregar Nuevo Equipo</h2>
                     </div>
                     <p>Completa la informacion principal para guardar el equipo en el inventario.</p>
                 </div>

@@ -8,7 +8,7 @@
     --line: rgba(118, 141, 163, 0.28);
     --shadow: 0 24px 60px rgba(20, 35, 50, 0.12);
     --primary: #1f5f8b;
-    --primary-strong: #173f63;
+    --primary-strong: #0a3963;
     --primary-soft: #dbe8f6;
     --accent: #c98a43;
     --accent-soft: #f7e8d6;
@@ -82,7 +82,7 @@ button {
     bottom: 40px;
     width: 260px;
     height: 260px;
-    background: rgba(201, 138, 67, 0.14);
+    background: rgba(139, 96, 46, 0.14);
 }
 
 .page-shell {
